@@ -1,0 +1,18 @@
+{
+  "username": "riya_kapoor",
+  "name": "Riya Kapoor",
+  "bio": "Photographer and web designer.",
+  "creative_bio": "Hi! I'm Riya, a creative soul blending photography and design to tell unique stories.",
+  "skills": ["Photography", "Web Design", "Branding"],
+  "portfolioLinks": ["https://riyakapoor.com"],
+  "profile_pic": "https://example.com/riya-portfolio.jpg",
+  "workSamples": [
+    "https://example.com/portfolio1.jpg",
+    "https://example.com/portfolio2.jpg"
+  ],
+  "hashtags": ["#branding", "#webdesign"],
+  "categories": ["Portfolio", "Design"],
+  "ai_tags": ["minimal", "colorful", "branding"],
+  "voice_intro": "https://example.com/riya-portfolio-voice.mp3",
+  "voice_transcript": "Hi, I'm Riya. My passion is to create visual stories that inspire and connect."
+} 

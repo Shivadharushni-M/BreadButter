@@ -1,0 +1,17 @@
+{
+  "username": "riya_kapoor",
+  "name": "Riya Kapoor",
+  "bio": "Software Engineer at Meta",
+  "creative_bio": "Hi! I'm Riya, a passionate engineer who loves building scalable web apps and leading teams.",
+  "skills": ["JavaScript", "React", "Leadership"],
+  "portfolioLinks": ["https://linkedin.com/in/riya"],
+  "profile_pic": "https://example.com/riya-linkedin.jpg",
+  "workSamples": [
+    "https://example.com/linkedin-post1.jpg"
+  ],
+  "hashtags": ["#software", "#react", "#leadership"],
+  "categories": ["Engineering", "Tech"],
+  "ai_tags": ["teamwork", "frontend", "scalable"],
+  "voice_intro": "https://example.com/riya-linkedin-voice.mp3",
+  "voice_transcript": "Hello, I'm Riya. I enjoy solving complex problems and mentoring new developers."
+} 

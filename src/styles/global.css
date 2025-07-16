@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Montserrat', 'Playfair Display', sans-serif;
+  background: url('https://images.ctfassets.net/dk0lphwn7d80/4WXUHEgeIev6cyogWxghRl/89b15c38403b38e0e0f4f8b84cfa854c/mert-kahveci-fD3hLQ28BtY-unsplash.jpg?fm=webp') no-repeat center center fixed;
+  background-size: cover;
+  color: #2b2d42;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+  transition: background 0.7s cubic-bezier(.4,0,.2,1);
+}
+body::before {
+  content: '';
+  position: fixed;
+  z-index: 1;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.05) 50%, transparent 100%);
+  pointer-events: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: #E12C2C;
+  margin-top: 0;
+}
+
+a {
+  color: #E12C2C;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #2b2d42;
+}
+
+.MuiPaper-root {
+  transition: box-shadow 0.3s, transform 0.2s, background 0.7s cubic-bezier(.4,0,.2,1);
+  background: #e3f0ff;
+}
+.MuiPaper-root:hover {
+  box-shadow: 0 8px 32px 0 rgba(225,44,44,0.16);
+  transform: scale(1.04);
+  background: #e3f0ff;
+}
+
+.MuiChip-root {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.category-label {
+  display: inline-block;
+  background: #E12C2C;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  border-radius: 8px;
+  padding: 0.3em 1.2em;
+  font-size: 0.95rem;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 8px #7ecbff;
+  animation: popIn 0.7s cubic-bezier(.4,0,.2,1);
+}
+
+.card {
+  animation: fadeIn 0.7s cubic-bezier(.4,0,.2,1);
+  transition: box-shadow 0.3s, transform 0.2s, background 0.7s cubic-bezier(.4,0,.2,1);
+  background: #e3f0ff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px 0 rgba(225,44,44,0.08);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+.card:hover {
+  box-shadow: 0 12px 40px 0 rgba(225,44,44,0.18);
+  transform: scale(1.07);
+  background: #e3f0ff;
+}
+
+img.fade-in {
+  opacity: 1;
+  animation: fadeInImg 1.2s forwards cubic-bezier(.4,0,.2,1);
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes fadeInImg {
+  from { opacity: 0; filter: blur(8px); }
+  to { opacity: 1; filter: blur(0); }
+}
+@keyframes popIn {
+  0% { transform: scale(0.7) rotate(-8deg); opacity: 0; }
+  80% { transform: scale(1.1) rotate(2deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #f8f8f8;
+}
+::-webkit-scrollbar-thumb {
+  background: #7ecbff;
+  border-radius: 8px;
+}
+
+.overlay-accent {
+  background: #fff;
+  border-radius: 16px;
+  padding: 0.5em 1.5em;
+  color: #2b2d42;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px #7ecbff;
+}

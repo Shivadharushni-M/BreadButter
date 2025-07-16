@@ -1,0 +1,17 @@
+{
+  "name": "Riya Kapoor",
+  "bio": "Photographer with 5+ years experience in fashion/travel",
+  "creative_bio": "Hi! I'm Riya, a Goa-based fashion photographer with a love for sunsets and pastel tones.",
+  "skills": ["Photography", "Editing", "Lightroom", "Pastel Tones"],
+  "portfolioLinks": ["https://riyakapoor.com"],
+  "profile_pic": "https://example.com/riya.jpg",
+  "workSamples": [
+    "https://example.com/post1.jpg",
+    "https://example.com/post2.jpg"
+  ],
+  "hashtags": ["#goa", "#fashion", "#pastel", "#sunset"],
+  "categories": ["Travel", "Fashion"],
+  "ai_tags": ["candid", "outdoor", "pastel"],
+  "voice_intro": "https://example.com/riya-voice.mp3",
+  "voice_transcript": "Hi, I'm Riya! I love capturing the beauty of Goa and the world through my lens."
+} 
