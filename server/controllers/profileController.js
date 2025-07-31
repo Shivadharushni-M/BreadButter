@@ -28,11 +28,7 @@ const upload = multer({
   }
 });
 
-// Remove all MongoDB, Mongoose, and Profile model imports and logic
-// Remove all caching logic
-// Add fs to read local JSON files
-// Remove duplicate require('path')
-// Only keep one: const path = require('path');
+
 
 // Helper to load mock JSON
 function loadMockJson(filename) {
@@ -95,10 +91,7 @@ exports.createProfile = async (req, res) => {
 
 exports.getProfiles = async (req, res) => {
   try {
-    // Caching
-    // The original code had profileCache and cacheTimestamp, but no actual database.
-    // This function will now return an empty array or a placeholder.
-    // For now, returning an empty array as there's no persistent data.
+  
     res.json([]); 
   } catch (error) {
     res.status(500).json({ message: error.message });
@@ -107,9 +100,7 @@ exports.getProfiles = async (req, res) => {
 
 exports.getProfileById = async (req, res) => {
   try {
-    // The original code had Profile model, which is removed.
-    // This function will now return a placeholder or throw an error.
-    // For now, returning a placeholder.
+   
     res.json({ message: 'Profile not found' }); 
   } catch (error) {
     res.status(500).json({ message: error.message });
